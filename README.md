@@ -68,7 +68,7 @@ Here, there are some good questions to think about:
 
 - What might explain this difference? (I looked at model_data.corr() to answer this question).
 
-You can find the answer to this question in the Jupyter Notebook I provided: "A Data Scientist for a Professional Football Club Part2.ipynb"
+You can find the answer to these questions in the Jupyter Notebook I provided: "A Data Scientist for a Professional Football Club Part2.ipynb"
 
 
 **Part 6:**
@@ -78,3 +78,22 @@ Here, I fit the linear model overall~ preferred_foot. Incredibly, the model says
 So I perform a randomization test on this data. I performed 1000 randomizations of preferred_foot, fit the same model, and record the effects. Then I ploted a histogram of the effects from the randomized data and used plt.axvline to plot a vertical red line to indicate where the observed effect from our data lies.
 
 I printed out the p value as well (p value is the proportion of the resampled effects are larger than our observed effect in absolute value).
+
+
+**Part 7:**
+
+Based on the findings from the randomization test, left footed players are on average 2.5 points better than their right footed counterparts! 
+However, that might not be the whole story. So I decide to take a look at the dataset from my predictive model, called footballer_data.csv. I load the data, clean it up as I did in part 1, and perform another regression of overall onto preferred_foot, this time controlling for age (including the quadratic term) and interceptions. You can see the results. So here are some questions for you:
+
+- What is the p-value for the effect of being right footed?
+
+- What does that mean in terms of the null hypothesis?
+
+You can find the answer to these questions in the Jupyter Notebook I provided: "A Data Scientist for a Professional Football Club Part2.ipynb"
+
+
+**Part 8:**
+
+Based on these results, what do you think about the idea of replacing the whole team with left-footed players?
+
+You can find the answer to this question in the Jupyter Notebook I provided: "A Data Scientist for a Professional Football Club Part2.ipynb"
