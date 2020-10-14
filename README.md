@@ -1,0 +1,2 @@
+# A-Data-Scientist-for-a-Professional-Football-Club-Part2
+This project is part 2 of the project  "A Data Scientist for a Professional Football Club". In this project, managers want to test some hypotheses relating a player's overall rating and some of their characteristics in order to make better decisions on what players to trade/sign. They would like to create some statistical models for inference instead of prediction. And for that reason, in this project, I took off my "data" hat and put on my "science" hat :D
